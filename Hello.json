@@ -1,0 +1,50 @@
+{
+  "version": "1.0",
+  "type": "ENTITLEMENT",
+  "referenceName": "Hello",
+  "publishingInformation": {
+    "locales": {
+      "en-US": {
+        "name": "Hello",
+        "summary": "Hello world summary.",
+        "description": "Hello world description",
+        "smallIconUri": "https://s3.amazonaws.com/alexa-devs/ep5/smallicon.png",
+        "largeIconUri": "https://s3.amazonaws.com/alexa-devs/ep5/largeicon.png",
+        "examplePhrases": [
+          "Hello world example phrase"
+        ],
+        "keywords": [
+          "Hello world keyword"
+        ],
+        "customProductPrompts": {
+          "purchasePromptDescription": "Purchase prompt description",
+          "boughtCardDescription": "Bought card description"
+        }
+      }
+    },
+    "distributionCountries": [
+      "US"
+    ],
+    "pricing": {
+      "amazon.com": {
+        "releaseDate": "2018-08-08T00:00Z",
+        "defaultPriceListing": {
+          "price": 0.99,
+          "currency": "USD"
+        }
+      }
+    },
+    "taxInformation": {
+      "category": "SOFTWARE"
+    }
+  },
+  "privacyAndCompliance": {
+    "locales": {
+      "en-US": {
+        "privacyPolicyUrl": "http://amazon.com/privacy"
+      }
+    }
+  },
+  "testingInstructions": "Testing instructions.",
+  "purchasableState": "PURCHASABLE"
+}
